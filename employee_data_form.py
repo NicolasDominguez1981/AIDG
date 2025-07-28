@@ -10,7 +10,7 @@ employee_number = st.text_input("Employee Number")
 profile_type = st.selectbox("Profile Type", ["Non-Technical", "Somewhat technical", "Technical"])
 
 # Excel file path
-excel_path = "https://github.com/NicolasDominguez1981/AIDG/blob/main/employee_data.xlsx"
+excel_path = "https://raw.githubusercontent.com/NicolasDominguez1981/AIDG/main/employee_data.xlsx"
 
 if st.button("Submit"):
     if not name or not employee_number:
