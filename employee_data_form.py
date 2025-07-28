@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 
-st.title("TCS Uruguay AI Initiatives")
+st.title("TCS Uruguay AI Initiatives.")
 
 # Form fields
 name = st.text_input("Name")
@@ -23,6 +23,6 @@ if st.button("Submit"):
             df = pd.read_excel(excel_path)
             df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
         else:
-            df = pd.DataFrame([new_row])
+            df = pd.DataFrame([new_row]
         df.to_excel(excel_path, index=False)
         st.success("Data saved successfully!")
