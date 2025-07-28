@@ -1,3 +1,8 @@
 streamlit
 pandas
 openpyxl
+pyGithub
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+gspread
